@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ju</title>
+</head>
+<body>
+    <details>
+        <summary><b>Q1</b>Define the terms: Website, Webpage, Web browser, Web server, HTML,
+            CSS ?</summary>
+            <article class="main-page-content" lang="en-US"><header><h1>What is the difference between webpage, website, web server, and search engine?</h1></header><div class="section-content"><p>In this article, we describe various web-related concepts: web pages, websites, web servers, and search engines. These terms are often confused by newcomers to the web or are incorrectly used. Let's learn what they each mean!</p>
+                <figure class="table-container"><table border="1">
+                  <tbody>
+                    <tr>
+                      <th scope="row">Prerequisites:</th>
+                      <td>
+                        You should know
+                        <a href="/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work">how the Internet works</a>.
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Objective:</th>
+                      <td>
+                        Be able to describe the differences between a web page, a website, a web
+                        server, and a search engine.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table></figure></div><section aria-labelledby="summary"><h2 id="summary"><a href="#summary">Summary</a></h2><div class="section-content"><p>As with any area of knowledge, the web comes with a lot of jargon. Don't worry. We won't overwhelm you with all of it (we have a <a href="/en-US/docs/Glossary">glossary</a> if you're curious). However, there are a few basic terms you need to understand at the outset since you'll hear these expressions all the time as you read on. It's easy to mix these terms since they refer to related but different functionalities. You'll sometimes see these terms misused in news reports and elsewhere, so getting them mixed up is understandable.</p>
+                <p>We'll cover these terms and technologies in more detail as we explore further, but these quick definitions will be a great start for you:</p>
+                <dl>
+                  <dt id="web_page"><a href="#web_page">web page</a></dt>
+                  <dd>
+                    <p>A document which can be displayed in a web browser such as Firefox, Google Chrome, Opera, Microsoft Edge, or Apple Safari. These are also often called just "pages."</p>
+                  </dd>
+                  <dt id="website"><a href="#website">website</a></dt>
+                  <dd>
+                    <p>A collection of web pages which are grouped together and usually connected together in various ways. Often called a "website" or a "site."</p>
+                  </dd>
+                  <dt id="web_server"><a href="#web_server">web server</a></dt>
+                  <dd>
+                    <p>A computer that hosts a website on the Internet.</p>
+                  </dd>
+                  <dt id="search_engine"><a href="#search_engine">search engine</a></dt>
+                  <dd>
+                    <p>A web service that helps you find other web pages, such as Google, Bing, Yahoo, or DuckDuckGo. Search engines are normally accessed through a web browser (e.g. you can perform search engine searches directly in the address bar of Firefox, Chrome, etc.) or through a web page (e.g. <a href="https://www.bing.com/" class="external" target="_blank">bing.com</a> or <a href="https://duckduckgo.com/" class="external" target="_blank">duckduckgo.com</a>).</p>
+                  </dd>
+                </dl>
+    </details>
+
+    <details>
+        <summary>
+            <b>Q2</b> Create a webpage to show “This is my first HTML page”
+        </summary>
+        &lt;!DOCTYPE html&gt; <br>
+        &lt;html lang="en"&gt; <br>
+        &lt;head&gt; <br>
+            &lt;meta charset="UTF-8"&gt; <br>
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;HTML | PAGE&lt;/title&gt; <br>
+        &lt;/head&gt; <br>
+        &lt;body&gt; <br>
+            &lt;h1&gt;“This is my first HTML page”&lt;/h1&gt;
+            <br>
+        <br>&lt;/body&gt;
+        <br>&lt;/html&gt;
+    </details>
+
+    <details>
+        <summary><b>Q3</b>Display top 10 IT companies list in html webpage
+        </summary>
+        <h1>Top 10 IT company List</h1>
+        <ol>
+            <li>HCL Consultancy Services</li>
+            <li>Wipro</li>
+            <li> Accenture</li>
+            <li>Infosys</li>
+            <li>Mindtree</li>
+            <li>TCS - Tata Consultancy Services</li>
+            <li>Tech mahindra</li>
+            <li>Delloite Consulting</li>
+            <li>Hexaware Technologies</li>
+            <li>Cognizant</li>
+        </ol>
+    </details>
+    <details>
+        <summary><b>Q4</b>Create a dropdown list </summary>
+        <h1><label>Choose your favourite sports:</label></h1>
+        <select name="sports" id="sports">
+            <option value="Cricket">Cricket</option>
+            <option value="Football">Football</option>
+            <option value="Volleyball">Volleyball</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Tennis">Tennis</option>
+        </select>
+    </details>
+    <details>
+        <summary><b>Q5</b>Create a Table Of college Management system using row span & col span</summary>
+        <table border="1" align="center" cellspacing="0" cellpadding="10" width="800">
+            <h1 align="center"> TIME TABLE</h1>
+            <tr align="center">
+                <td>Day/Period</td>
+                <td>I<br> 9:30-10:20</td>
+                <td>II<br>10:20-11:10</td>
+                <td>III<br>11:10-12:00</td>
+                <td>12:00-12:40</td>
+                <td>IV<br>12:40-1:30</td>
+                <td>V<br>1:30-2:20</td>
+                <td>VI<br>2:20-3:10</td>
+                <td>VII<br>3:10-4:00</td>
+            </tr>
+            <tr align="center">
+                <th>Monday</th>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <th rowspan="6">L<br>U<br>N<br>C<br>H</th>
+                <td colspan="3">LAB</td>
+                <td>Phy</td>
+            </tr>
+            <tr align="center">
+                <th>Tuesday</th>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>SPORTS</td>
+            </tr>
+            <tr align="center">
+                <th>Wednesday</th>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>eng</td>
+                <td>che</td>
+                <td colspan="3">LIBRARY</td>
+    
+            </tr>
+            <tr align="center">
+                <th>Thursday</th>
+                <td>phy</td>
+                <td>eng</td>
+                <td>che</td>
+                <td colspan="3">LIBRARY</td>
+                <td>mat</td>
+            </tr>
+            <tr align="center">
+                <th>Friday</th>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>phy</td>
+            </tr>
+            <tr align="center">
+                <th>Saturday</th>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3">SEMINAR</td>
+                <td>SPORTS</td>
+            </tr>
+        </table>
+    </details>
+
+    <details>
+        <summary><b>Q6</b>Create below table using HTML table tags </summary>
+        <table bgcolor="green" border="1" cellspacing="0" cellpadding="20" align="center" style="color: aliceblue;" bordercolor="white">
+            <caption><font color="black">European Roulette</font></caption>
+            <tr>
+                <td rowspan="5"> 0 </td>
+                <td bgcolor="RED"> 3 </td>
+                <td bgcolor="BLACK"> 6 </td>
+                <td bgcolor="RED"> 9 </td>
+                <td bgcolor="RED"> 12 </td>
+                <td bgcolor="BLACK"> 15 </td>
+                <td bgcolor="RED"> 18 </td>
+                <td bgcolor="RED"> 21 </td>
+                <td bgcolor="BLACK"> 24 </td>
+                <td bgcolor="RED"> 27 </td>
+                <td bgcolor="RED"> 30 </td>
+                <td bgcolor="BLACK"> 33 </td>
+                <td bgcolor="RED"> 36 </td>
+                <td> 2to1 </td>
+            </tr>
+            <tr>
+                <td bgcolor="BLACK">2</td>
+                <td bgcolor="RED">5</td>
+                <td bgcolor="BLACK">8</td>
+                <td bgcolor="BLACK">11</td>
+                <td bgcolor="RED">14</td>
+                <td>17</td>
+                <td>20</td>
+                <td bgcolor="RED">23</td>
+                <td bgcolor="BLACK">26</td>
+                <td bgcolor="BLACK">29</td>
+                <td bgcolor="RED">32</td>
+                <td bgcolor="BLACK">35</td>
+                <td>2to1</td>
+            </tr>
+            <tr>
+                <td bgcolor="RED">1</td>
+                <td bgcolor="BLACK">4</td>
+                <td bgcolor="RED">7</td>
+                <td bgcolor="BLACK">10</td>
+                <td bgcolor="BLACK">13</td>
+                <td bgcolor="RED">16</td>
+                <td bgcolor="RED">19</td>
+                <td bgcolor="BLACK">22</td>
+                <td bgcolor="RED">25</td>
+                <td bgcolor="BLACK">28</td>
+                <td bgcolor="BLACK">31</td>
+                <td bgcolor="RED">34</td>
+                <td>2to1</td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">1st12</td>
+                <td colspan="4" align="center">2nd12</td>
+                <td colspan="4" align="center">3rd12</td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="2">1to18</td>
+                <td colspan="2">EVEN</td>
+                <td colspan="2" bgcolor="RED"></td>
+                <td colspan="2" bgcolor="BLACK"></td>
+                <td colspan="2">OOD</td>
+                <td colspan="2">19to36</td>
+            </tr>
+        </table>
+    </details>
+</body>
+</html>
