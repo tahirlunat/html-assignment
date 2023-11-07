@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 align="center">Module (HTML-5) - 1</h1>
+    
+<details>
+   <summary> <b>• What are the new tags added in HTML5?</b></summary> <br>
+   The following tags (elements) have been introduced in HTML5 − 
+   <br>
+   <table class="table table-bordered" border="1">
+    <tbody><tr>
+    <th width="30%">Tags (Elements)</th>
+    <th>Description</th>
+    </tr>
+    <tr>
+    <td>&lt;article&gt;</td>
+    <td>Represents an independent piece of content of a document, such as a blog entry or newspaper article</td>
+    </tr>
+    <tr>
+    <td>&lt;aside &gt;</td>
+    <td>Represents a piece of content that is only slightly related to the rest of the page.</td>
+    </tr>
+    <tr>
+    <td>&lt;audio&gt;</td>
+    <td>Defines an audio file.</td>
+    </tr>
+    <tr>
+    <td>&lt;canvas&gt;</td>
+    <td>This is used for rendering dynamic bitmap graphics on the fly, such as graphs or games.</td>
+    </tr>
+    <tr>
+    <td>&lt;command&gt;</td>
+    <td>Represents a command the user can invoke.</td>
+    </tr>
+    <tr>
+    <td>&lt;datalist&gt;</td>
+    <td>Together with the a new list attribute for input can be used to make comboboxes</td>
+    </tr>
+    <tr>
+    <td>&lt;details&gt;</td>
+    <td>Represents additional information or controls which the user can obtain on demand</td>
+    </tr>
+    <tr>
+    <td>&lt;embed&gt;</td>
+    <td>Defines external interactive content or plugin.</td>
+    </tr>
+    <tr>
+    <td>&lt;figure&gt;</td>
+    <td>Represents a piece of self-contained flow content, typically referenced as a single unit from the main flow of the document.</td>
+    </tr>
+    <tr>
+    <td>&lt;footer&gt;</td>
+    <td>Represents a footer for a section and can contain information about the author, copyright information, et cetera.</td>
+    </tr>
+    <tr>
+    <td>&lt;header&gt;</td>
+    <td>Represents a group of introductory or navigational aids.</td>
+    </tr>
+    <tr>
+    <td>&lt;hgroup&gt;</td>
+    <td>Represents the header of a section.</td>
+    </tr>
+    <tr>
+    <td>&lt;keygen&gt;</td>
+    <td>Represents control for key pair generation.</td>
+    </tr>
+    <tr>
+    <td>&lt;mark&gt;</td>
+    <td>Represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context.</td>
+    </tr>
+    <tr>
+    <td>&lt;meter&gt;</td>
+    <td>Represents a measurement, such as disk usage.</td>
+    </tr>
+    <tr>
+    <td>&lt;nav&gt;</td>
+    <td>Represents a section of the document intended for navigation.</td>
+    </tr>
+    <tr>
+    <td>&lt;output&gt;</td>
+    <td>Represents some type of output, such as from a calculation done through scripting.</td>
+    </tr>
+    <tr>
+    <td>&lt;progress&gt;</td>
+    <td>Represents a completion of a task, such as downloading or when performing a series of expensive operations.</td>
+    </tr>
+    <tr>
+    <td>&lt;ruby&gt;</td>
+    <td>Together with  &lt;rt&gt; and &lt;rp&gt; allow for marking up ruby annotations.</td>
+    </tr>
+    <tr>
+    <td>&lt;section&gt;</td>
+    <td>Represents a generic document or application section</td>
+    </tr>
+    <tr>
+    <td>&lt;time&gt;</td>
+    <td>Represents a date and/or time.</td>
+    </tr>
+    <tr>
+    <td>&lt;video&gt;</td>
+    <td>Defines a video file.</td>
+    </tr>
+    <tr>
+    <td>&lt;wbr&gt;</td>
+    <td>Represents a line break opportunity.</td>
+    </tr>
+    </tbody></table>
+</details> 
+
+<br>
+
+<details>
+    <summary> <b> • How to embed audio and video in a webpage? </b> </summary> <br>
+   <b> 1. Audio </b>
+    <br>
+   <p>To embed audio in HTML, we use the &lt; audio &gt; tag. Before HTML5, audio cannot be added to web pages in the Internet Explorer era. To play audio, we used web plugins like Flash. After the release of HTML5, it is possible. This tag supports Chrome, Firefox, Safari, Opera, and Edge in three audio formats – MP3, WAV, OGG. Only Safari browser doesn’t support OGG audio format.</p> <br>
+   <b>example ;</b> <br>
+   &lt; audio &gt; <br>
+      &lt; source src="file_name" type="audio_file_type" &gt; <br>
+   &lt; /audio &gt;
+
+   <table border="1">
+    <thead>
+    <tr>
+    <th>Attribute</th>
+    <th>Value</th>
+    <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>autoplay</td>
+    <td>autoplay</td>
+    <td>When the page is loaded. It specifies to play audio as soon as possible.&nbsp;</td>
+    </tr>
+    <tr>
+    <td>controls</td>
+    <td>controls</td>
+    <td>It displays audio control.&nbsp;</td>
+    </tr>
+    <tr>
+    <td>loop</td>
+    <td>loop</td>
+    <td>It will start the audio again when it is finished.&nbsp;</td>
+    </tr>
+    <tr>
+    <td>muted</td>
+    <td>muted</td>
+    <td>When the page is loaded audio will be automatically muted.&nbsp;</td>
+    </tr>
+    <tr>
+    <td>preload</td>
+    <td>
+    <p>auto metadata</p>
+    <p>none</p>
+    </td>
+    <td>It specifies how the author thinks the audio will be loaded when the page is ready.&nbsp;</td>
+    </tr>
+    <tr>
+    <td>src</td>
+    <td>URL</td>
+    <td>It specifies the URL of the audio file.&nbsp;</td>
+    </tr>
+    </tbody>
+    </table>    
+
+   <br><br>
+   <b>2. Video</b>
+    <br>
+   <p>To embed video in HTML, we use the &lt; video &gt; tag. It contains one or more video sources at a time using &lt; source &gt; tag. It supports MP4, WebM, and Ogg in all modern browsers. Only Ogg video format doesn’t support in Safari browser. </p>
+    <b>Example</b> <br>
+    &lt; video &gt;  <br>
+        &lt; source src="file_name" type="video_file_type" &gt;  <br>
+    &lt; /video &gt; 
+
+    <table border="1">
+        <thead>
+        <tr>
+        <th>Attribute</th>
+        <th>Value</th>
+        <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>autoplay</td>
+        <td>autoplay</td>
+        <td>When the page is loaded. It specifies to play video as soon as possible.&nbsp;</td>
+        </tr>
+        <tr>
+        <td>controls</td>
+        <td>controls</td>
+        <td>It displays video control such as play, pause, and stop.</td>
+        </tr>
+        <tr>
+        <td>loop</td>
+        <td>loop</td>
+        <td>It will start the video again when it is finished.&nbsp;</td>
+        </tr>
+        <tr>
+        <td>muted</td>
+        <td>muted</td>
+        <td>When the page is loaded video will be automatically muted.&nbsp;</td>
+        </tr>
+        <tr>
+        <td>poster</td>
+        <td>URL</td>
+        <td>It specifies an image will be shown until video play.&nbsp;</td>
+        </tr>
+        <tr>
+        <td>preload</td>
+        <td>auto<br>metadata<br>none</td>
+        <td>It specifies how the author thinks the video will be loaded when the page is ready.&nbsp;</td>
+        </tr>
+        <tr>
+        <td>src</td>
+        <td>URL</td>
+        <td>It specifies the URL of the audio file.&nbsp;</td>
+        </tr>
+        <tr>
+        <td>width</td>
+        <td>pixels</td>
+        <td>It specifies the width of the video area. The default value of width is ‘auto’.</td>
+        </tr>
+        <tr>
+        <td>height</td>
+        <td>pixels</td>
+        <td>It specifies the height of the video area. The default value of height is ‘auto’.</td>
+        </tr>
+        </tbody>
+        </table>
+    
+</details>
+ 
+<br>
+
+<details>
+    <summary> <b> • Semantic element in HTML5?</b></summary> <br>
+    <ul>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html5-article-tag/"><strong>&lt;article&gt;</strong></a><strong> tag: </strong>A article tag is used to specify a particular block or space on the web page that is independent and has self-contained content. We can use &lt;article&gt; for the blog posts, the articles from newspapers, and more such entities.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html5-header-tag/"><strong>&lt;header&gt;</strong></a><strong> tag: </strong>The header is the semantic tag that specifies the header or title of the page that will be shown at the top of the page.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html-nav-tag/"><strong>&lt;nav&gt;</strong></a><strong> tag: </strong>Nav is the element or tag that is used to build the navbar of the page. It is the element inside which we define the nav links that perform some actions on click to them.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html-section-tag/"><strong>&lt;section&gt;</strong></a><strong> tag: </strong>section element is used to define the midsection part of the page, which can contain the information about the upcoming events, text content, or whatever a developer wants it to display.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html-main-tag/"><strong>&lt;main&gt;</strong></a><strong> tag: </strong>The main element is also used to define the middle content on the web page. It can contain text or other elements to show the content on the web page.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html5-aside-tag/"><strong>&lt;aside&gt;</strong></a><strong> tag: </strong>The aside element defines the content on the side of the web page.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html5-footer-tag/"><strong>&lt;footer&gt;</strong></a><strong> tag: </strong>Footer is the element mainly used to provide the copyrights or some extra links that are available on the web page.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html-tables/"><strong>&lt;table&gt;</strong></a><strong> tag: </strong>The table tag is one of the most important elements available in HTML. It allows us to create a table with rows, columns, and the data inside them, as shown below example.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html-form-tag/"><strong>&lt;form&gt;</strong></a><strong> tag: </strong>The form tag is also a very useful and important tag. It is used to build a web page form that can be a <strong>login </strong>or a <strong>submission </strong>form. It uses input tags inside it which are used to get inputs from the user.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html5-figure-tag/"><strong>&lt;figure&gt;</strong></a><strong> and </strong><a href="https://www.geeksforgeeks.org/html5-figcaption-tag/"><strong>&lt;figcaption&gt;</strong></a><strong> tag: </strong>The figure tag contains the self-contained content such that images, graphs, code content, etc. while the figcaption tag specifies the caption or the description of the content contained by the figure tag. we can place the caption above or below the figure content by using figcaption tag to the corresponding position.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html5-details-tag/"><strong>&lt;details&gt;</strong></a><strong> and </strong><a href="https://www.geeksforgeeks.org/html-5-summary-tag/"><strong>&lt;summary&gt;</strong></a><strong> tag: </strong>The details tag contains the information that will be visible on the page when the user demands it to display. By default, the text is not visible on the page. while the summary tag is used to show the main heading of the details tag and the text that is contained inside details other than summary text will be visible when the user clicks on the content of the summary tag.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html-time-tag/"><strong>&lt;time&gt;</strong></a><strong> tag: </strong>Time tag the time or the datetime. We use an attribute named datetime inside it that translates the time into a machine-readable language that results in a smarter search response from search engines.</li>
+        <li style="text-align:justify;"><a href="https://www.geeksforgeeks.org/html-mark-tag/"><strong>&lt;mark&gt;</strong></a><strong> tag: </strong>The mark tag contains the content that is marked or highlighted to show the importance of the text.</li>
+        </ul>
+</details>
+
+<br>
+
+<details>
+    <summary> <b> • Canvas and SVG tags </b></summary> <br>
+
+    <h2>SVG: </h2>
+    
+    <p>
+
+        The Scalable Vector Graphics (SVG) is an XML-based image format that is used to define two-dimensional vector-based graphics for the web. Unlike raster image (Ex .jpg, .gif, .png, etc.), a vector image can be scaled up or down to any extent without losing the image quality.
+        
+        An SVG image is drawn out using a series of statements that follow the XML schema — that means SVG images can be created and edited with any text editor, such as Notepad. There are several other advantages of using SVG over other image formats like JPEG, GIF, PNG, etc.
+    </p>
+    <h2>Canvas: </h2>
+    <p>
+         The HTML element is used to draw graphics on the fly, via scripting (usually JavaScript). The element is only a container for graphics. You must use a script to actually draw the graphics. Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+    </p>
+
+    <table border="1">
+        <thead>
+        <tr>
+        <th>SVG</th>
+        <th>Canvas</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Vector based (composed of shapes)</td>
+        <td>Raster based (composed of pixel)</td>
+        </tr>
+        <tr>
+        <td>SVG has better scalability. So it can be printed with high quality at any resolution.</td>
+        <td>Canvas has poor scalability. Hence it is not suitable for printing on higher resolution.</td>
+        </tr>
+        <tr>
+        <td>SVG gives better performance with smaller number of objects or larger surface.</td>
+        <td>Canvas gives better performance with smaller surface or larger number of objects.</td>
+        </tr>
+        <tr>
+        <td>SVG can be modified through script and CSS.</td>
+        <td>Canvas can be modified through script only.</td>
+        </tr>
+        <tr>
+        <td>Multiple graphical elements, which become the part of the page’s DOM tree.</td>
+        <td>Single element similar to &lt;img&gt; in behavior. Canvas diagram can be saved to PNG or JPG format.</td>
+        </tr>
+        </tbody>
+        </table>
+    </details>
+
+
+</body>
+</html>
